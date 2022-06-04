@@ -3,6 +3,6 @@ import App from "./App";
 
 test("The App Component Renders Correctly", () => {
   render(<App />);
-  const titleElement = screen.getByText(/hello world/i);
+  const titleElement = screen.getByText(/hello/i);
   expect(titleElement).toBeInTheDocument();
 });
