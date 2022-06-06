@@ -1,10 +1,15 @@
 module.exports = {
   content: ["./src/**/*.{tsx,ts,jsx,js}"],
   theme: {
-    colors: {
-      primary: "#FF5300",
+    extend: {
+      colors: {
+        primary: "#FF5300",
+      },
+      backgroundImage: {
+        place:
+          "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F29C72 100%);",
+      },
     },
-    extend: {},
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },
