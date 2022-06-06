@@ -19,7 +19,7 @@ const PerfectPlaces = () => {
         <Place rating={4} place='Bangalore' image={sunsetSea} />
         <Place rating={4} place='Coorg' image={wideAngle} />
         <Place rating={3} place='Island' image={groupParty} />
-        <div className='absolute top-[45%] -right-5'>
+        <div className='absolute top-[45%] -right-2'>
           <button
             type='button'
             className='bg-primary w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center'>
