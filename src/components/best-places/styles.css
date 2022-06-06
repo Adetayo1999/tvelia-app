@@ -1,0 +1,40 @@
+.grid-container {
+  height: 400px;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+    "box-1 box-1 box-1 box-1 box-2 box-3 box-3 box-4"
+    "box-1 box-1 box-1 box-1 box-2 box-3 box-3 box-5"
+    "box-1 box-1 box-1 box-1 box-2 box-3 box-3 box-5"
+    "box-1 box-1 box-1 box-1 box-2 box-6 box-6 box-5"
+    "box-1 box-1 box-1 box-1 box-7 box-6 box-6 box-5";
+}
+
+.box-1 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f29c72 100%);
+  grid-area: box-1;
+}
+.box-2 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-2;
+}
+.box-3 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-3;
+}
+.box-4 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-4;
+}
+.box-5 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-5;
+}
+.box-6 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-6;
+}
+.box-7 {
+  background: linear-gradient(180deg, #f29c72 0%, rgba(255, 255, 255, 0) 100%);
+  grid-area: box-7;
+}
