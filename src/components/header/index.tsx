@@ -1,5 +1,5 @@
 import Logo from "../logo";
-import Navigation from "../navbar";
+import Navbar from "../navbar";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <div className=''>
         <Logo />
       </div>
-      <Navigation />
+      <Navbar />
     </div>
   );
 };

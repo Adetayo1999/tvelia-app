@@ -32,7 +32,7 @@ const navItems = [
   },
 ];
 
-export const Navbar = () => {
+const Navbar = () => {
   const [active] = useState(navItems[0].text);
 
   return (
