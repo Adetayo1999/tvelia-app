@@ -34,7 +34,7 @@ type LinkWrapperType = {
 
 const LinkWrapper = ({ title, children }: LinkWrapperType) => {
   return (
-    <div className=''>
+    <div className='mb-6 md:mb-0'>
       <h3 className='text-[#1D1B19] mb-3 font-black'>{title}</h3>
       {children}
     </div>
@@ -43,8 +43,8 @@ const LinkWrapper = ({ title, children }: LinkWrapperType) => {
 
 const Footer = () => {
   return (
-    <div className='border-b border-primary border-opacity-20 flex justify-between mt-40 pb-7'>
-      <div className='md:w-[23rem]'>
+    <div className='border-b border-primary border-opacity-20 flex flex-col md:flex-row  md:justify-between md:mt-40 pb-7'>
+      <div className='md:w-[23rem] mb-6 md:mb-0'>
         <Logo />
         <p className='text-sm my-3 text-[#C6C6C6]'>
           An adventure is an exciting experience that is typically bold,

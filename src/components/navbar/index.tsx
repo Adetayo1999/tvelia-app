@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <ul className='flex justify-center items-center'>
+      <ul className='hidden md:flex justify-center items-center'>
         {navItems.map(({ text, path }) => (
           <li key={text} className='md:mr-11 last-of-type:mr-0'>
             <NavbarLink text={text} path={path} active={active} />

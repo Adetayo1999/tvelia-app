@@ -5,22 +5,22 @@ import hikersTop from "../../assets/images/hikers-top 1.png";
 
 const TravelTrends = () => {
   return (
-    <div className='flex justify-between my-32 items-center'>
-      <div className='flex flex-[0.63]'>
+    <div className='flex flex-col-reverse md:flex-row justify-between my-32 items-center'>
+      <div className='flex mt-6 md:mt-0 md:flex-[0.63]'>
         <img
           src={manHiking}
           alt=''
-          className='w-[13rem] h-[18rem] rounded-md'
+          className='w-[8rem] h-[8rem] md:w-[13rem] md:h-[18rem] rounded-md'
         />
         <img
           src={rockMountain}
           alt=''
-          className='w-[13rem] h-[18rem] scale-125 rounded-md'
+          className='w-[8rem] h-[8rem] md:w-[13rem] md:h-[18rem] scale-125 rounded-md'
         />
         <img
           src={hikersTop}
           alt=''
-          className='w-[13rem] h-[18rem] rounded-md'
+          className='w-[8rem] h-[8rem] md:w-[13rem] md:h-[18rem] rounded-md'
         />
       </div>
       <div className='flex-[0.35]'>

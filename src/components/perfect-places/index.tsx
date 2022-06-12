@@ -7,22 +7,22 @@ import { ArrowRight } from "../../assets/svg";
 
 const PerfectPlaces = () => {
   return (
-    <div className='flex justify-between mb-16'>
-      <div className='flex-[0.33]'>
+    <div className='flex flex-col md:flex-row justify-between mb-16'>
+      <div className='md:flex-[0.33]'>
         <SideLine
           title='Find The Perfect Place'
           body='A list of the top 75 Best Tourist Places to See in world  for a perfect holiday or a trip.'
           buttonTitle='View More'
         />
       </div>
-      <div className='flex flex-[0.63] justify-between relative'>
+      <div className='flex flex-col md:flex-row justify-center md:flex-[0.63] md:justify-between relative'>
         <Place rating={4} place='Bangalore' image={sunsetSea} />
         <Place rating={4} place='Coorg' image={wideAngle} />
         <Place rating={3} place='Island' image={groupParty} />
         <div className='absolute top-[45%] -right-2'>
           <button
             type='button'
-            className='bg-primary w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center'>
+            className='bg-primary w-[2.5rem] h-[2.5rem] rounded-full hidden md:flex justify-center items-center'>
             <ArrowRight />
           </button>
         </div>

@@ -8,7 +8,7 @@ import hikersTop from "../../assets/images/hikers-top 1.png";
 const TopExperiences = () => {
   return (
     <Container title='Top rated Experiences on Travel'>
-      <div className='flex justify-center items-center gap-x-4'>
+      <div className='flex flex-col md:flex-row justify-center items-center gap-x-4'>
         <TopRated
           heading='Beautiful luxury outdoor swimming pool hotel resort'
           place='Bangalore'
